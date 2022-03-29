@@ -19,12 +19,23 @@
 }
 
 .poster{
-    border-radius: 5px;
+    /* padding: 0.2rem; */
+    border-radius: 10px;
     max-height: 200px;
-    margin-right: 10px;
+    margin-right: 12px;
+    cursor: pointer;
 }
 .smallPoster{
     border-radius: 5px;
     max-height: 140px;
-    margin-right: 10px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.movieTitle{
+    max-width: 13rem;
+}
+
+.poster:hover,.smallPoster:hover{
+    transform: scale(1.05);
 }
