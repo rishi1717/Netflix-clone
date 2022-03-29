@@ -1,0 +1,30 @@
+.heading{
+    margin-top: 1rem;
+}
+
+.movieRow{
+    margin-left: 20px;
+    color: #fff;
+}
+
+.posters{
+    display: flex;
+    padding: 1rem;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.posters::-webkit-scrollbar{
+    display: none;
+}
+
+.poster{
+    border-radius: 5px;
+    max-height: 200px;
+    margin-right: 10px;
+}
+.smallPoster{
+    border-radius: 5px;
+    max-height: 140px;
+    margin-right: 10px;
+}
