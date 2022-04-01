@@ -14,7 +14,7 @@ function Banner() {
             let ran = Math.floor(Math.random() * 20)
 			setMovie(trending.data.results[ran])
 		} catch (e) {
-			console.log(e)
+			console.log(e)  
 		}
 	}, [])
 	return (
